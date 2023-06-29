@@ -12,3 +12,8 @@ Breakpoint  | Device/Viewport Size
 
 ---
 
+> css exercising
+
+[ref css exercising: CSS Full Course for Beginners | Complete All-in-One Tutorial | 11 Hours](https://www.youtube.com/watch?v=n4R2E7O-Ngo)
+
+![](./images/tacoshop01.png)
