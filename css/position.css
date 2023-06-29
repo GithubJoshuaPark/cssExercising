@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  min-height: 200vh;
+}
+
+.outer-container {
+  border: 2px dashed #000;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative;
+}
+
+.inner-container {
+  border: 2px solid #00f;
+  width: 40vw;
+  height: 50vh;
+  margin: 200px auto;
+  position: relative;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00f;
+}
+
+.relative {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  background-color: #f00;
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  background-color: #0f0;
+}
+
+.sticky {
+  position: sticky;
+  top: 100px;
+  left: 100px;
+  background-color: #f0f;
+}
+
+/* Path: css/position.css */
+section {
+  height: 100vh;
+}
+
+.blue {
+  background-color: #00f;
+}
+
+.red {
+  background-color: #f00;
+}
+
+.green {
+  background-color: #0f0;
+}
+
+header, footer {
+  color: #fff;
+  text-align: center;
+  height: 100px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  font-size: 5rem;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #000;
+  font-size: 3rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.social {
+  background-color: royalblue;
+  color: #fff;
+  font-size: inherit;
+  padding: 1rem;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+}
